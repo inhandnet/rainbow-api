@@ -1,0 +1,16 @@
+{
+	"title": "RAINBOW",
+	"tagline": "Rainbow Free WIFI solution",
+	"docs_path": "docs",
+	"image": "img/app.png",
+	"template":"default",
+	"toggle_code": false,
+	"clean_urls": false,
+	"date_modified": true,
+	"float": false,
+	"file_editor": true,
+    	"links": {
+        	"Platform": "http://10.5.101.225"
+    	},
+	"theme": "navy"
+}
