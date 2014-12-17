@@ -51,15 +51,15 @@
 	"login": "",
 	"logout" : "http://192.168.60.1:3990/logoff",
 	"device_no" : "123321",
-	"store_name" : "广州 T.I.T 时尚咖啡"，
-	"store_id" : "320123",
+	"store_name" : "广州 T.I.T 时尚咖啡",
+	"store_id": "320123",
 	"client_mac" : "84-3A-4B-DC-39-B8",
-	"addition_mac" : "84-3A-4B-DC-39-B9”,
-	"login_state " : 0,
+	"addition_mac" : "84-3A-4B-DC-39-B9",
+	"login_state" : 0,
 	"login_remain" : 1208,
 	"login_allow" : 1010,
 	"echostr": "",
-	"reason":　""
+	"reason": ""
 }
 ```
 ####返回值字段说明
