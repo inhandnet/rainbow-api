@@ -32,7 +32,7 @@
 | client_secret |   true |    string |  应用密钥（appkey） |
 | grant_type |  true |    string |  授权类型（一般固定值：authorization_code） |
 | code |    true |    string |  第三方的授权码 |
-| as_type | true |    int | 具体指哪一个第三方: <br/> 1.腾讯 2.百度 3.新浪 4.网易 |
+| as_type | true |    int | 具体指哪一个第三方: <br/> 1.腾讯 2.百度 3.新浪 4.网易 5.微信验证码 6.一键上网 7.微信粉丝 8.facebook 9.twitter 10.微信连wifi |
 | redirect_url |    false |   string |  如果不是页面调用，且不需要重定向，则不需要此参数。 |
 | access_token |    true |    string |  设备初始化后得到的网关密钥. <br/> 用于确认当前终端用户所属机构。 |
 
@@ -92,7 +92,7 @@
 | userTraffic |  Object |  用户流量使用数据对象 |
 | date |  long |  时间戳 |
 | userId |  ObjectId |  终端用户ID |
-| txM |  int |  当前终端用户，当月上行流量 |
+| txM |  int |  当前终端用户，当月上行流量|
 | rxM |  int |  当前终端用户，当月下行流量 |
 | timeM |  int |  当前终端用户，当月上网时长 |
 | txD |  int |  当前终端用户，当日上行流量 |
